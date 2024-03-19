@@ -1,4 +1,4 @@
-#Deep Learning Challenge Report
+# Deep Learning Challenge Report
 ## Overview
 In this analysis I created a binary classifier to help Alphabet Soup determine if applicants for funding will be successful if funded. This was done with the use of machine learning and neural networks. The data was first preprocessed. Then the model was compiled, trained, and evaluated. From here I worked to optimize the model.
 
