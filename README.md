@@ -4,13 +4,13 @@ In this analysis I created a binary classifier to help Alphabet Soup determine i
 
 ## Results
 
-#Data Preprocessing
+# Data Preprocessing
 
 * Target Variables: The target variable is the 'IS_SUCCESSFUL' column.
 * Feature Variables: The feature variables are all comuns besides the target variable, and the previously dropped columns('EIN' and 'NAME')
 * Variables to be removed because they are neither targets nor features: The removed variables are EIN and NAME.
 
-#Compiling, Training, and Evaluating the Model
+# Compiling, Training, and Evaluating the Model
 
 * 6 Neurons in the first layer and 8 in the second were originally selected. I did this as a starting point to see what my accuracy results were then increased them to 8 and 10 respectively to attempt to improve accuracy by helping the neural network learn more complex patterns.
 * 3 layers were used per the assignment. The first two used relu activation functions. Relu introduces nonlinearity and avoids vanishing gardient. I used sigmoid for the output layer. This is best used in models where the probability has to be predicted and there is only the range of 0 to 1.
